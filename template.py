@@ -27,7 +27,7 @@ for filepath in list_of_files:
 
 
     if filedir != "":
-        os.markdirs(filedir, exit_ok=True)
+        os.makedirs(filedir, exit_ok=True)
         logging.info(f"Creating directory; {filedir} for the file: {filename}")
 
 
