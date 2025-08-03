@@ -28,3 +28,18 @@ This project demonstrates how to build an AI-powered code analyzer that can read
 | ChromaDB    | Vector database for semantic search           |
 
 
+
+## 📂 Project Structure
+```
+auto-code-analyzer/
+├── app/ # Flask backend
+│ ├── routes.py
+│ ├── analyzer.py
+│ └── utils/
+├── langchain/ # LangChain workflows
+├── chromadb/ # Vector store setup
+├── scripts/ # GitHub fetchers and parsers
+├── requirements.txt
+├── README.md
+└── run.py
+```
