@@ -53,3 +53,11 @@ auto-code-analyzer/
 5. **Ask Questions** – Users ask questions, and the system uses semantic search + GPT to respond intelligently.
 
 
+## 🧪 Example Use Cases
+
+- "What does the `main.py` file do?"
+- "Where is the database configured?"
+- "Show all functions using recursion."
+- "Explain the structure of this Django project."
+
+
