@@ -43,3 +43,13 @@ auto-code-analyzer/
 ├── README.md
 └── run.py
 ```
+
+## 📌 How It Works
+
+1. **Clone a GitHub Repository** – User provides a repository URL.
+2. **Parse & Extract Code** – Files are scanned, parsed, and preprocessed.
+3. **Embed the Code** – Code snippets are converted into embeddings using OpenAI.
+4. **Store in Vector DB** – Embeddings are saved in ChromaDB for quick retrieval.
+5. **Ask Questions** – Users ask questions, and the system uses semantic search + GPT to respond intelligently.
+
+
