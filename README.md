@@ -16,3 +16,15 @@ This project demonstrates how to build an AI-powered code analyzer that can read
 - ☁️ **Cloud Deployment** – Easily deploy your solution to the cloud.
 
 
+
+## 🛠️ Tech Stack
+
+| Tool        | Description                                   |
+|-------------|-----------------------------------------------|
+| Python      | Core programming language                     |
+| Flask       | Backend framework for serving the API         |
+| OpenAI      | GPT models for code analysis and Q&A          |
+| LangChain   | Language model orchestration and chaining     |
+| ChromaDB    | Vector database for semantic search           |
+
+
