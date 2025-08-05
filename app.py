@@ -18,3 +18,14 @@ load_dotenv()
 
 OPENAI_API_KEY = os.environ.get('OPENAI_API_KEY')
 os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
+
+
+
+embeddings = load_embedding()
+persist_directory = "db"
+
+# Now we can load the persisted from disk, and use it as normal
+vectordb = Chroma(persist_directory = persist_directory,
+                  embedding_function = embeddings)
+
+
