@@ -34,4 +34,6 @@ def load_repo(repo_path):
 
 # Loading embeddings model
 def load_embedding():
-    
+    embeddings = OpenAIEmbeddings(disallowed_special=())
+
+    return embeddings
