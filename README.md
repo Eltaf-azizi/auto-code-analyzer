@@ -61,3 +61,19 @@ auto-code-analyzer/
 - "Explain the structure of this Django project."
 
 
+## 🖥️ Installation
+
+```bash
+git clone https://github.com/yourusername/auto-code-analyzer.git
+cd auto-code-analyzer
+pip install -r requirements.txt
+```
+Set your OpenAI API key:
+
+```bash
+Copy
+Edit
+export OPENAI_API_KEY=your_key_here
+```
+
+
