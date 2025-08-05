@@ -76,4 +76,12 @@ Edit
 export OPENAI_API_KEY=your_key_here
 ```
 
+▶️ Run the App
+```bash
+Copy
+Edit
+python run.py
+```
+Then open your browser at http://localhost:5000.
+
 
