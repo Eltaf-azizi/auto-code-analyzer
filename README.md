@@ -85,3 +85,29 @@ python run.py
 Then open your browser at http://localhost:5000.
 
 
+## ☁️ Deployment
+Deploy to any cloud provider (AWS EC2, Render, Heroku). Ensure environment variables like OPENAI_API_KEY are securely set.
+
+
+## 📖 Learning Goals
+ - Build practical AI tools with real-world utility
+
+ - Learn backend development with Flask
+
+ - Gain experience in LangChain and vector search (ChromaDB)
+
+ - Master the integration of OpenAI APIs in production-level apps
+
+## 🤝 Contributing
+Contributions are welcome! If you'd like to enhance the system with features like:
+
+ - GUI (JavaFX or Swing)
+
+ - Persistent storage (File I/O or JDBC)
+
+ - Enhanced validation and exception handling
+
+ - Feel free to fork the repo and submit a pull request.
+
+<h3 align="center">Happy Coding!</h3>
+
