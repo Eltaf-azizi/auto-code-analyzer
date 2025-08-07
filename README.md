@@ -88,3 +88,14 @@ Then open your browser at http://localhost:5000.
 ## ☁️ Deployment
 Deploy to any cloud provider (AWS EC2, Render, Heroku). Ensure environment variables like OPENAI_API_KEY are securely set.
 
+
+## 📖 Learning Goals
+ - Build practical AI tools with real-world utility
+
+ - Learn backend development with Flask
+
+ - Gain experience in LangChain and vector search (ChromaDB)
+
+ - Master the integration of OpenAI APIs in production-level apps
+
+
