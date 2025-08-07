@@ -48,4 +48,29 @@ def index():
 @app.route('/chatbot', methods=["GET", "POST"])
 def gitRepo():
 
+    if request.method == 'POST':
+        user_input = request.form['question']
+        repo_ingestion(user_input)
+        os.system("python store_index.py")
+
+    
+    return jsonify({"response": str(user_input)})
+
+
+
+@app.route("/get", methods=["GET", "POST"])
+def chat():
+    msg = request.form["msg"]
+    input = msg
+    print(input)
+
+
+    if input == "clear":
+        os.system("rm -rf repo")
+
+
+    result = qa(input)
+    print(result['answer'])
+    return str(result["answer"])
+
 
